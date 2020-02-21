@@ -10,7 +10,8 @@ const mockData = patternMock({
 	products: [{
 		title: 'SENTENCE',
 		description: 'PARAGRAPH',
-		price: 'CUSTOM_NUMBER_1-999'
+		price: 'CUSTOM_NUMBER_1-999',
+		currency: '$'
 	}]
 });
 
