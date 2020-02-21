@@ -1,0 +1,29 @@
+.home-page {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.search {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 500px;
+		margin-top: 15%;
+		transition: all 1s;
+	
+		.logo {
+			width: 200px;
+			margin-bottom: 50px;
+			transition: all 1s;
+		}
+
+		&.searching {
+			margin-top: 50px;
+
+			.logo {
+				width: 150px;
+			}
+		}
+	}
+} 
